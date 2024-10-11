@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 interface IButton {
   className?: string;
-  onClick: () => void;
+  onClick?: () => void;
   children: React.ReactNode;
 }
 
