@@ -14,19 +14,25 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.8",
+    "@sentry/nextjs": "^8.34.0",
+    "@spotlightjs/spotlight": "^2.5.0",
     "@tanstack/react-query": "^5.59.9",
     "@tanstack/react-query-devtools": "^5.59.9",
     "chart.js": "^4.4.4",
+    "clsx": "^2.1.1",
     "next": "14.2.15",
     "next-auth": "^4.24.8",
+    "next-intl": "^3.21.1",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-redux": "^9.1.2",
-    "redux": "^5.0.1"
+    "redux": "^5.0.1",
+    "tailwind-merge": "^2.5.3"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
+    "@next/bundle-analyzer": "^14.2.15",
     "@playwright/test": "^1.48.0",
     "@storybook/addon-essentials": "^8.3.5",
     "@storybook/addon-interactions": "^8.3.5",
@@ -41,6 +47,9 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.3.2",
+    "@vitest/coverage-v8": "^2.1.2",
+    "@vitest/expect": "^2.1.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "eslint-config-prettier": "^9.1.0",
@@ -50,13 +59,17 @@
     "husky": "^9.1.6",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "jiti": "^2.3.3",
     "lint-staged": "^15.2.10",
     "msw": "^2.4.9",
     "postcss": "^8",
     "prettier": "^3.3.3",
     "storybook": "^8.3.5",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^5.0.1",
+    "vitest": "^2.1.2",
+    "vitest-fail-on-console": "^0.7.1"
   },
   "msw": {
     "workerDirectory": [
