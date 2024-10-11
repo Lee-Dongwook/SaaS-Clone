@@ -3,6 +3,8 @@ import React from 'react';
 interface IButton {
   className?: string;
   onClick?: () => void;
+  variant?: 'primary' | 'secondary' | 'ghost';
+  ref?: unknown;
   children: React.ReactNode;
 }
 
