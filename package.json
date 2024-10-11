@@ -20,6 +20,7 @@
   "dependencies": {
     "@clerk/nextjs": "^5.7.2",
     "@electric-sql/pglite": "^0.2.11",
+    "@radix-ui/react-accordion": "^1.2.1",
     "@reduxjs/toolkit": "^2.2.8",
     "@sentry/nextjs": "^8.34.0",
     "@spotlightjs/spotlight": "^2.5.0",
