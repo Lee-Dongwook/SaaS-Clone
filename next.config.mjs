@@ -7,7 +7,7 @@ import withNextIntl from 'next-intl/plugin';
 
 const jiti = createJiti(fileURLToPath(import.meta.url));
 
-jiti('./src/libs/Env');
+jiti('./src/utils/Env');
 
 const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
 
