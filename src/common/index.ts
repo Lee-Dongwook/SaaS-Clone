@@ -2,6 +2,8 @@ export * from './Accordion';
 export * from './Badge';
 export * from './Button';
 export * from './DataTable';
+export * from './Dropdown';
 export * from './Form';
 export * from './Input';
 export * from './Table';
+export * from './Tooltip';
