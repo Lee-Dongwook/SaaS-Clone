@@ -9,7 +9,7 @@ const jiti = createJiti(fileURLToPath(import.meta.url));
 
 jiti('./src/utils/Env');
 
-const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+const withNextIntlConfig = withNextIntl('./src/utils/i18n.ts');
 
 const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
