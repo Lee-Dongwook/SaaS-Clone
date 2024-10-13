@@ -8,6 +8,7 @@ export * from './Dropdown';
 export * from './Form';
 export * from './Input';
 export * from './Label';
+export * from './Logo';
 export * from './Switcher';
 export * from './Table';
 export * from './Tooltip';

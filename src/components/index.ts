@@ -3,5 +3,8 @@ export * from './BarChart';
 export * from './BillingPriceCard';
 export * from './BillingPriceFeature';
 export * from './BillingPriceInformation';
+export * from './DashboardHeader';
+export * from './DashboardMessageState';
+export * from './DashboardSection';
 export * from './DashboardTitleBar';
 export * from './LineChart';
